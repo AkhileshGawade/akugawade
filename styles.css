@@ -1,0 +1,188 @@
+body{
+    margin: 0px;
+    width: 100%;
+}
+nav ul li{
+    list-style-type: none;
+    float: left;
+    padding-left: 70px;
+    color: black;
+    text-align: center;
+    font-size: 26px;
+    font-style: italic;
+}
+nav ul{
+    float: left;
+}
+nav{
+    width: 100%;
+    height: 60px;
+    background-color: deepskyblue;
+    background-size: auto;
+    text-align: center;
+    position: fixed;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+section{
+    background-color: antiquewhite;
+    width: 100%;
+    margin: 0px;
+    font-style: italic;
+}
+.Home{
+    text-align: center;
+    font-size: 40px;
+    padding: 15px;
+    height: 100vh;
+    display: table;
+    width: 100%;
+    background-image: url("https://avante.biz/wp-content/uploads/Beautiful-Scenery-Backgrounds/Beautiful-Scenery-Backgrounds-011.jpg");
+    
+}
+.inner{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.Home .inner img{
+    border-radius: 50px;
+    width: 250px;
+    height: 250px;
+    opacity: 0.75;
+    
+}
+.About{
+    text-align: center;
+    background-image: url("https://animal-wallpaper.com/wallpaper/beach-landscape-wallpapers-1080p-For-Background-HD-Wallpaper.jpg");
+    font-size: 40px;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    display: table;
+    color: black;
+}
+
+.About .inner{
+    display: table-cell;
+    vertical-align: middle;
+}
+.About .inner p{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.Education{
+    text-align: center;
+    background-image: url("https://wallpapercave.com/wp/RFPcI5Z.jpg");
+    font-size: 30px;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    display: table;
+    color: black;
+    
+}
+.Education .inner{
+    display: table-cell;
+    vertical-align: middle;
+}
+.Education .inner h1{
+    font-size: 50px;
+}
+.Education .inner div{
+    margin-left: 10px;
+    margin-right: 10px;
+    float: center;
+}
+div ul li{
+    list-style-type: none;
+}
+.Skills{
+    text-align: center;
+    background-image: url("https://i.pinimg.com/originals/fb/3a/05/fb3a05fd7989f644999111e915cf700c.jpg");
+    font-size: 40px;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    display: table;
+    color: black;
+    
+}
+.Skills .inner{
+    display: table-cell;
+    vertical-align: middle;
+}
+.Skills .inner h1{
+    text-align: center;
+    font-size: 50px;
+    margin-left: 45px;
+}
+.Interest{
+    text-align: center;
+    background-image: url("https://s1.1zoom.me/big0/982/Scenery_Lake_Summer_441404.jpg");
+    font-size: 40px;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    display: table;
+    color: black;
+}
+.Interest .inner{
+    display: table-cell;
+    vertical-align: middle;
+}
+.Interest .inner h1{
+    text-align: center;
+    font-size: 50px;
+    margin-left: 40px;
+}
+.Experience{
+    list-style-type: decimal;
+    text-align: left;
+    background-image: url("https://www.desktopbackground.org/download/o/2014/08/17/810814_free-wallpapers-free-travel-wallpapers-hokkaido-scenery_1280x1024_h.jpg");
+    font-size: 36px;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    display: table;
+    color: black;
+    
+}
+.Experience .inner{
+    display: table-cell;
+    vertical-align: middle;
+}
+.Experience .inner h1{
+    text-align: center;
+    font-size: 50px;
+}
+.Experience .inner li{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.Contact{
+     text-align: center;
+    background-image: url("https://www.freegreatpicture.com/files/28/22900-blue-sky-prairie-scenery.jpg");
+    font-size: 32px;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    display: table;
+    color: black;
+}
+.Contact .inner{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+/*responsive designing*/
+@media (min-width:320px) and (max-width:767px){
+    .Home .inner img{
+        padding-top: 125px;
+    }
+    nav{
+        height: 90px;
+    }
+}
